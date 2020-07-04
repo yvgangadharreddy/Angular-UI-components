@@ -1,0 +1,25 @@
+.body {
+  height: 100vh;
+  background: #fbfcfc;
+}
+.container {
+  padding-top: 30px;
+}
+.container-card {
+  box-shadow: 3px 3px 7px rgba(51,51,51,.25);
+  display: flex;
+  padding: 16px;
+  height: 170px;
+  background-color: #fff;
+  border: none;
+  align-items: center;
+  border-radius: 15px;
+  justify-content: center;
+  cursor: pointer;
+  outline: 0;
+
+  h6 {
+    text-align: center;
+  }
+}
+
