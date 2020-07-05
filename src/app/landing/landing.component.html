@@ -1,7 +1,7 @@
 <div class="body">
   <div class="container">
     <div class="row">
-      <div class="col-sm-4 col-md-3 col-lg-2" *ngFor="let route of routes">
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2 mt-4" *ngFor="let route of routes">
         <div class="container-card" [routerLink]="route.path">
           <h6>{{route?.data?.name}}</h6>
         </div>

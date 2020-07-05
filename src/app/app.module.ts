@@ -8,6 +8,7 @@ import {DragMenuComponent} from './drag-menu/drag-menu.component';
 import {RatingComponent} from './rating/rating.component';
 import {ShareButtonComponent} from './share-button/share-button.component';
 import { LandingComponent } from './landing/landing.component';
+import { DayNightToggleComponent } from './day-night-toggle/day-night-toggle.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { LandingComponent } from './landing/landing.component';
     DragMenuComponent,
     RatingComponent,
     ShareButtonComponent,
-    LandingComponent
+    LandingComponent,
+    DayNightToggleComponent
   ],
   imports: [
     BrowserModule,
